@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>A man like Grauchi</title>
+        <meta charset="UTF-8">
+        <style>
+            nav {
+            background-color: #000000;
+            color: white;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font font-size: 17px;
+        }
+        nav a:hover {
+            background-color: rgb(0, 0, 0);
+            color: rgb(8, 8, 8);
+        }
+        
+        body {
+                background-color: rgb(10, 10, 10);
+            }
+            h1 {
+                color: white;
+                font-size: 48px;
+            }
+            p {
+                color: white;
+                font-size: 20px;
+            }
+        </style>
+        
+    </head>
+    <body>
+            <nav>
+        <a href="https://example.com/about" target="_blank">About Us</a>
+        <a href="https://example.com/services" target="_blank">Our Services</a>
+        <a href="https://example.com/products" target="_blank">Products</a>
+        <a href="https://example.com/contact" target="_blank">Contact</a>
+    </nav>
+    
+    <h1>WE ARE THE GOOD COMPANY</h1>
+        <p>This is an attempt to create a html file that shows a few mixes.</p>
+        <p style="color: rgb(0, 255, 128);">This text will be blue.</p>
+        <!--more content goes here-->
+        <article>
+            <h2>My Favorite Mixes</h2>
+            <ul>
+                <li>
+                    <a href="https://www.youtube.com/watch?v=jvCg5Fr7YLc/" target="_blank" style="color: rgb(0, 255, 128);"> 
+                        
+                        <img src="https://img.youtube.com/vi/jvCg5Fr7YLc/0.jpg" alt="Mix 1">
+                        <figcaption> The Wake Up Call With Grauchi #187 Safari </figcaption>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://www.youtube.com/watch?v=3JkA8AaQLEk" target="_blank" style="color: rgb(0, 255, 128);"> 
+                        
+                        <img src="https://img.youtube.com/vi/3JkA8AaQLEk/0.jpg" alt="Mix 2">
+                        <figcaption> The Wake Up Call With Grauchi #189 Titanium. </figcaption>
+                        </a>
+                </li>
+
+                <li>   
+                    <a href="https://www.youtube.com/watch?v=b8DLVNHK5Zg" target="_blank" style="color:rgb(0, 255, 128);"> 
+                        
+                        <img src="https://img.youtube.com/vi/b8DLVNHK5Zg/0.jpg" alt="Mix 3">
+                        <figcaption> The Wake Up Call With Grauchi #188 Havana DANCEHALL & SOCA VIBES </figcaption>
+                    </a>
+                </li>
+            </ul>
+            <p>Check out my mixes and let me know what you think!</p>
+            <p id="introduction">This is similar to using a yellow marker. Useful if you want to return to it later maybe to link it to a JS or a CSS file.</p>
+            <p class="highlight">Class element allows you to group together elements such that you can style them together.</p>
+
+            <p>I <strong>strongly recommend practicing HTML daily. </strong> </p>
+            <p>To <em>really</em> understand HTML, you need to build projects.</p>
+            <p>Water is H<sub>2</sub>O.</p>
+            <p>E=mc<sup>2</sup>.</p>
+            <p>Ben &amp; Jerry's</p>
+            <p>To add a paragraph, use the &lt;p&gt; tag.</p>
+            <p>This sentence uses&nbsp;&nbsp;&nbsp;multiple spaces.</p>
+            <p>&copy; 2024 My Website. All rights reserved.</p>
+
+        </article>
+    </body>
+    <footer>
+        contact me at <a href=thegoodcompany.co.ke>thegoodcompany.co.ke</a>":
+        <img src=https://www.thegoodcompany.co.ke/logo.png alt="The Good Company Logo" style="width: 100px; height: auto;">
+        <p>
+            <a href="info@thegoodcompany.co.ke" alt="info@thegoodcompany.co.ke"></a>
+        </p><p>© 2023 Grauchi. All rights reserved.</p>
+        <table style="width: 100%; border-collapse: collapse; text-align: left; color: white;">
+        <tr>
+            <th style="padding: 10px; border-bottom: 1px solid #e5e9e4;">Let’s Talk About Your Project</th>
+            <th style="padding: 10px; border-bottom: 1px solid #e5e9e4;">Have Any Query?</th>
+            <th style="padding: 10px; border-bottom: 1px solid #ffffff;">Where We Are Located</th>
+        </tr>
+        <tr>
+            <td style="padding: 10px;">What are your hopes for your project? What are your fears? How do you move from concept to actuality? We are here to help you with that. Whether your brand needs a spring clean or an overhaul. Let us do the heavy lifting.</td>
+            <td style="padding: 10px;">Our dedicated staff are always ready to help. We appreciate your business and want you to bring us loads more! We welcome you to contact us for more information about any of our products or services.</td>
+            <td style="padding: 10px;">Second Floor, 90 JGO<br>James Gichuru Road<br>Lavington<br>Nairobi, KE</td>
+        </tr>
+    </table>
+    </footer>
+</html>
